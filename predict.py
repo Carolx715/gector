@@ -45,7 +45,7 @@ def main(args):
     cnt_corrections = predict_for_file(args.input_file, args.output_file, model,
                                        batch_size=args.batch_size)
     # evaluate with m2 or ERRANT
-    print(f"Produced overall corrections: {cnt_corrections}")
+    # print(f"Produced overall corrections: {cnt_corrections}")
 
 
 if __name__ == '__main__':
